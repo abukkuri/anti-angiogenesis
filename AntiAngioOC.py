@@ -8,6 +8,7 @@ nt = 1010 #time steps
 m.time = np.linspace(0,800,nt) #having nt linearly spaced time points between 0 and end time.
 
 # Variables
+
 #Initial conditions
 x = m.Var(value=0.8)
 y = m.Var(value=0.0006)
